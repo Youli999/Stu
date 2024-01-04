@@ -795,3 +795,146 @@ Caused by: java.lang.ClassCastException: class com.chunyang.stu.Filter.FilterCon
 [INFO] [2023-09-20 14:10:00][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
 [INFO] [2023-09-20 14:10:00][com.chunyang.stu.Controller.LoginController - 42]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
 [WARN] [2023-09-20 14:10:00][com.chunyang.stu.Controller.LoginController - 43]this is warn message
+[INFO] [2023-12-01 16:50:58][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 24424 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 16:50:58][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 16:50:59][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 16:50:59][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1004 ms
+[INFO] [2023-12-01 16:51:00][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 16:51:00][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.015 seconds (process running for 2.663)
+[INFO] [2023-12-01 16:51:34][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 16:51:34][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2023-12-01 16:52:15][com.chunyang.stu.Controller.LoginController - 42]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
+[WARN] [2023-12-01 16:52:15][com.chunyang.stu.Controller.LoginController - 43]this is warn message
+[INFO] [2023-12-01 16:54:57][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 26152 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 16:54:57][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 16:54:58][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 16:54:59][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1229 ms
+[INFO] [2023-12-01 16:54:59][org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - 58]Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO] [2023-12-01 16:54:59][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 16:54:59][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.587 seconds (process running for 3.215)
+[INFO] [2023-12-01 16:55:00][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 16:55:00][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 2 ms
+[INFO] [2023-12-01 16:55:00][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2023-12-01 16:55:00][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50ebd06
+[INFO] [2023-12-01 16:55:00][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2023-12-01 17:01:50][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2023-12-01 17:01:50][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2023-12-01 17:01:54][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 26696 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 17:01:54][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 17:01:55][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 17:01:55][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1111 ms
+[INFO] [2023-12-01 17:01:56][org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - 58]Exposing 13 endpoint(s) beneath base path '/actuator'
+[INFO] [2023-12-01 17:01:56][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 17:01:56][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.452 seconds (process running for 3.026)
+[INFO] [2023-12-01 17:01:56][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 17:01:56][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-01 17:01:56][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2023-12-01 17:01:57][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c139aec
+[INFO] [2023-12-01 17:01:57][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2023-12-01 17:06:03][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2023-12-01 17:06:03][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2023-12-01 17:06:06][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 3856 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 17:06:06][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 17:06:07][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 17:06:07][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1156 ms
+[INFO] [2023-12-01 17:06:08][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 17:06:08][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.445 seconds (process running for 3.077)
+[INFO] [2023-12-01 17:06:13][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 17:06:13][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-01 17:07:03][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 29192 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 17:07:03][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 17:07:04][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 17:07:04][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1084 ms
+[INFO] [2023-12-01 17:07:05][org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - 58]Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO] [2023-12-01 17:07:05][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 17:07:05][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.316 seconds (process running for 2.905)
+[INFO] [2023-12-01 17:07:05][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 17:07:05][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2023-12-01 17:07:05][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-01 17:07:06][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460cae48
+[INFO] [2023-12-01 17:07:06][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2023-12-01 17:07:43][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2023-12-01 17:07:43][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2023-12-01 17:07:45][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 26052 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 17:07:45][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 17:07:46][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 17:07:46][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1131 ms
+[INFO] [2023-12-01 17:07:47][org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - 58]Exposing 13 endpoint(s) beneath base path '/actuator'
+[INFO] [2023-12-01 17:07:47][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 17:07:47][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.537 seconds (process running for 3.107)
+[INFO] [2023-12-01 17:07:47][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 17:07:47][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-01 17:07:47][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2023-12-01 17:07:47][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4587bd3b
+[INFO] [2023-12-01 17:07:47][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2023-12-01 17:10:36][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2023-12-01 17:10:36][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2023-12-01 17:10:38][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 3588 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-01 17:10:38][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-01 17:10:39][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-01 17:10:39][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1223 ms
+[INFO] [2023-12-01 17:10:40][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-01 17:10:40][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.556 seconds (process running for 3.094)
+[INFO] [2023-12-01 17:10:42][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-01 17:10:42][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-05 09:27:55][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 32432 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-05 09:27:55][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-05 09:27:57][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-05 09:27:57][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 2111 ms
+[INFO] [2023-12-05 09:27:59][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-05 09:27:59][com.chunyang.stu.StuApplication - 57]Started StuApplication in 4.641 seconds (process running for 5.808)
+[INFO] [2023-12-05 09:28:48][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-05 09:28:48][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 2 ms
+[INFO] [2023-12-05 09:28:48][com.chunyang.stu.Controller.LoginController - 42]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
+[WARN] [2023-12-05 09:28:48][com.chunyang.stu.Controller.LoginController - 43]this is warn message
+[INFO] [2023-12-05 09:29:37][com.chunyang.stu.Controller.LoginController - 42]User(Id=5, username=chunyang'<<<<<<>>>//, password=666666, phoneNumber=1105471162)
+[WARN] [2023-12-05 09:29:37][com.chunyang.stu.Controller.LoginController - 43]this is warn message
+[INFO] [2023-12-13 17:34:09][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 22976 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-13 17:34:09][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-13 17:34:11][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-13 17:34:11][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1433 ms
+[INFO] [2023-12-13 17:34:12][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-13 17:34:12][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.899 seconds (process running for 3.528)
+[INFO] [2023-12-13 17:35:08][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-13 17:35:08][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2023-12-13 17:35:08][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2023-12-13 17:35:08][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aa3c972
+[INFO] [2023-12-13 17:35:08][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2023-12-13 17:37:15][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2023-12-13 17:37:15][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2023-12-14 17:30:45][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 22084 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2023-12-14 17:30:45][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2023-12-14 17:30:46][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2023-12-14 17:30:46][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1318 ms
+[INFO] [2023-12-14 17:30:47][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2023-12-14 17:30:47][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.945 seconds (process running for 3.467)
+[INFO] [2023-12-14 17:31:02][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2023-12-14 17:31:02][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2023-12-14 17:31:02][com.chunyang.stu.Controller.LoginController - 42]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
+[WARN] [2023-12-14 17:31:02][com.chunyang.stu.Controller.LoginController - 43]this is warn message
+[INFO] [2024-01-03 10:03:01][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 12244 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-01-03 10:03:01][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-01-03 10:03:02][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-01-03 10:03:02][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1122 ms
+[INFO] [2024-01-03 10:03:03][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-01-03 10:03:03][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.307 seconds (process running for 2.893)
+[INFO] [2024-01-03 10:04:12][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-01-03 10:04:12][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-01-03 10:04:13][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2024-01-03 10:04:13][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68198dbe
+[INFO] [2024-01-03 10:04:13][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2024-01-03 10:06:48][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2024-01-03 10:06:48][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2024-01-03 10:06:52][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 23084 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-01-03 10:06:52][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-01-03 10:06:53][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-01-03 10:06:54][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1063 ms
+[INFO] [2024-01-03 10:06:54][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-01-03 10:06:54][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.154 seconds (process running for 2.893)
+[INFO] [2024-01-03 10:07:02][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-01-03 10:07:02][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-01-03 10:07:02][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2024-01-03 10:07:02][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27cde7b2
+[INFO] [2024-01-03 10:07:02][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[WARN] [2024-01-03 12:13:37][com.zaxxer.hikari.pool.HikariPool - 804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s37ms899µs500ns).
+[WARN] [2024-01-03 17:33:33][com.zaxxer.hikari.pool.HikariPool - 804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s270ms193µs).
