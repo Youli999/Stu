@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
+import org.springframework.core.annotation.Order;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.stereotype.Component;
 
@@ -14,10 +15,7 @@ import java.io.IOException;
 /**
  * @author Happy
  */
-@WebFilter    //1
-
-@Component    //2
-//@Order(1)
+@WebFilter(urlPatterns = "/*")
 public class XssFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -27,9 +25,8 @@ public class XssFilter implements Filter {
             throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
         XssAndSqlHttpServletRequestWrapper xssRequestWrapper = new XssAndSqlHttpServletRequestWrapper(req);
-        System.out.println("start chunyang2");
+
         chain.doFilter(xssRequestWrapper, response);
-        System.out.println("end chunyang2");
     }
     @Override
     public void destroy() {

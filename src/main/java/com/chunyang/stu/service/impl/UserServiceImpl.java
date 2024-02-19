@@ -28,5 +28,13 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
+    @Override
+    public User login(String username, String password) {
+
+        User user = userMapper.existuser(username,password);
+
+        return user;
+    }
+
 
 }
