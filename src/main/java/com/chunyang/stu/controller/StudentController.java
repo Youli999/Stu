@@ -2,6 +2,7 @@ package com.chunyang.stu.controller;
 
 
 
+import com.chunyang.stu.api.Result;
 import com.chunyang.stu.pojo.Student;
 import com.chunyang.stu.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,13 +16,13 @@ public class StudentController {
     @Autowired
     private StudentService studentService;
 
-    @PostMapping("findStudentById")
-    Student findStudentById(@RequestParam Long id){
+    @PostMapping("api/findStudentById")
+    Result<Student> findStudentById(@RequestParam Long id){
 
 
         Student studentById = studentService.findStudentById(id);
 
-       return studentById;
+       return Result.success(studentById);
 
     }
 }

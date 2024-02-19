@@ -9,4 +9,7 @@ public interface UserService {
 
 
     User selectById(Long id);
+
+
+    User login(String username,String password);
 }

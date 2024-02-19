@@ -1261,3 +1261,204 @@ Caused by: java.lang.NoClassDefFoundError: com/chunyang/stu/mapping/StudentMappe
 [INFO] [2024-02-19 14:22:01][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.363 seconds (process running for 2.897)
 [INFO] [2024-02-19 14:22:15][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
 [INFO] [2024-02-19 14:22:15][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2024-02-19 14:23:41][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 7524 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 14:23:41][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 14:23:42][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 14:23:42][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1113 ms
+[INFO] [2024-02-19 14:23:43][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 14:23:43][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.417 seconds (process running for 2.908)
+[INFO] [2024-02-19 14:24:00][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 14:24:00][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 14:54:44][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 4136 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 14:54:44][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 14:54:45][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 14:54:45][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1149 ms
+[INFO] [2024-02-19 14:54:46][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 14:54:46][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.446 seconds (process running for 2.992)
+[INFO] [2024-02-19 14:55:04][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 14:55:04][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 2 ms
+[WARN] [2024-02-19 14:55:11][org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - 207]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type Integer is not present]
+[INFO] [2024-02-19 14:55:41][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2024-02-19 14:55:41][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fec4597
+[INFO] [2024-02-19 14:55:41][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2024-02-19 15:00:52][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2024-02-19 15:00:52][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
+[INFO] [2024-02-19 15:00:56][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 17368 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:00:56][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:00:57][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:00:57][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1270 ms
+[INFO] [2024-02-19 15:00:58][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:00:58][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.664 seconds (process running for 3.233)
+[INFO] [2024-02-19 15:01:41][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:01:41][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 2 ms
+[INFO] [2024-02-19 15:01:56][com.chunyang.stu.controller.LoginController - 43]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
+[WARN] [2024-02-19 15:01:56][com.chunyang.stu.controller.LoginController - 44]this is warn message
+[INFO] [2024-02-19 15:21:02][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 25852 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:21:02][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:21:04][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:21:04][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1393 ms
+[INFO] [2024-02-19 15:21:05][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:21:05][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.763 seconds (process running for 3.747)
+[INFO] [2024-02-19 15:21:13][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:21:13][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2024-02-19 15:22:47][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 12400 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:22:47][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:22:48][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:22:48][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1065 ms
+[INFO] [2024-02-19 15:22:49][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:22:49][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.275 seconds (process running for 2.862)
+[INFO] [2024-02-19 15:22:53][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:22:53][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2024-02-19 15:23:08][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 18652 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:23:08][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:23:09][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:23:09][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1032 ms
+[INFO] [2024-02-19 15:23:10][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:23:10][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.216 seconds (process running for 2.79)
+[INFO] [2024-02-19 15:23:11][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:23:11][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2024-02-19 15:28:10][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 8692 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:28:10][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:28:11][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:28:11][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1216 ms
+[INFO] [2024-02-19 15:28:12][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:28:12][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.548 seconds (process running for 3.143)
+[INFO] [2024-02-19 15:28:15][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:28:15][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:28:42][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 26460 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:28:42][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:28:43][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:28:43][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1130 ms
+[INFO] [2024-02-19 15:28:44][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:28:44][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.43 seconds (process running for 3.013)
+[INFO] [2024-02-19 15:28:48][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:28:48][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:36:33][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 23704 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:36:33][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:36:34][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:36:34][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1261 ms
+[INFO] [2024-02-19 15:36:35][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:36:35][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.601 seconds (process running for 3.185)
+[INFO] [2024-02-19 15:36:38][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:36:38][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:36:55][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 20588 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:36:55][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:36:56][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:36:56][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1097 ms
+[INFO] [2024-02-19 15:36:57][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:36:57][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.364 seconds (process running for 2.905)
+[INFO] [2024-02-19 15:37:01][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:37:01][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 0 ms
+[INFO] [2024-02-19 15:37:01][com.chunyang.stu.controller.LoginController - 43]User(Id=5, username=chunyang'<script>alert(111)<script>, password=666666, phoneNumber=1105471162)
+[WARN] [2024-02-19 15:37:01][com.chunyang.stu.controller.LoginController - 44]this is warn message
+[INFO] [2024-02-19 15:37:29][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 12188 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:37:29][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:37:30][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:37:30][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1123 ms
+[INFO] [2024-02-19 15:37:31][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:37:31][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.495 seconds (process running for 3.085)
+[INFO] [2024-02-19 15:38:18][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 8440 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:38:18][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:38:19][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:38:19][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1234 ms
+[INFO] [2024-02-19 15:38:20][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:38:20][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.638 seconds (process running for 3.233)
+[INFO] [2024-02-19 15:38:22][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:38:22][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:38:36][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 18044 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:38:36][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:38:38][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:38:38][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1279 ms
+[INFO] [2024-02-19 15:38:39][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:38:39][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.671 seconds (process running for 3.274)
+[INFO] [2024-02-19 15:38:42][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:38:42][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:40:16][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 24700 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:40:16][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:40:17][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:40:17][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1067 ms
+[INFO] [2024-02-19 15:40:18][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:40:18][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.462 seconds (process running for 3.076)
+[INFO] [2024-02-19 15:40:28][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:40:28][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:47:07][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 24384 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:47:07][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:47:08][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:47:08][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1240 ms
+[INFO] [2024-02-19 15:47:09][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:47:09][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.62 seconds (process running for 3.17)
+[INFO] [2024-02-19 15:47:47][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:47:47][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 15:59:00][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 14208 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 15:59:00][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 15:59:01][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 15:59:02][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1076 ms
+[INFO] [2024-02-19 15:59:03][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 15:59:03][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.573 seconds (process running for 3.158)
+[INFO] [2024-02-19 15:59:29][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 15:59:29][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 17:13:18][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 18068 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 17:13:18][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 17:13:19][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 17:13:19][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1080 ms
+[WARN] [2024-02-19 17:13:19][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - 616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'userController' method 
+com.chunyang.stu.controller.UserController#Login(Integer)
+to {POST [/api/login]}: There is already 'loginController' bean method
+com.chunyang.stu.controller.LoginController#Login(String, String) mapped.
+[INFO] [2024-02-19 17:13:19][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] [2024-02-19 17:13:20][org.springframework.boot.SpringApplication - 824]Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'userController' method 
+com.chunyang.stu.controller.UserController#Login(Integer)
+to {POST [/api/login]}: There is already 'loginController' bean method
+com.chunyang.stu.controller.LoginController#Login(String, String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.chunyang.stu.StuApplication.main(StuApplication.java:14)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.chunyang.stu.controller.UserController#Login(Integer)
+to {POST [/api/login]}: There is already 'loginController' bean method
+com.chunyang.stu.controller.LoginController#Login(String, String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:667)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:441)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 more
+[INFO] [2024-02-19 17:15:50][com.chunyang.stu.StuApplication - 51]Starting StuApplication using Java 17.0.8 with PID 24580 (D:\Java_Code\JavaScript\2023-09-11\Stu\target\classes started by 11054 in D:\Java_Code\JavaScript\2023-09-11\Stu)
+[INFO] [2024-02-19 17:15:50][com.chunyang.stu.StuApplication - 634]No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-02-19 17:15:51][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 108]Tomcat initialized with port(s): 8999 (http)
+[INFO] [2024-02-19 17:15:51][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - 291]Root WebApplicationContext: initialization completed in 1125 ms
+[INFO] [2024-02-19 17:15:52][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 220]Tomcat started on port(s): 8999 (http) with context path ''
+[INFO] [2024-02-19 17:15:52][com.chunyang.stu.StuApplication - 57]Started StuApplication in 2.446 seconds (process running for 3.067)
+[INFO] [2024-02-19 17:16:37][org.springframework.web.servlet.DispatcherServlet - 532]Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-02-19 17:16:37][org.springframework.web.servlet.DispatcherServlet - 554]Completed initialization in 1 ms
+[INFO] [2024-02-19 17:16:38][com.zaxxer.hikari.HikariDataSource - 110]HikariPool-1 - Starting...
+[INFO] [2024-02-19 17:16:38][com.zaxxer.hikari.pool.HikariPool - 565]HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@147d69c9
+[INFO] [2024-02-19 17:16:38][com.zaxxer.hikari.HikariDataSource - 123]HikariPool-1 - Start completed.
+[INFO] [2024-02-19 17:26:25][com.zaxxer.hikari.HikariDataSource - 350]HikariPool-1 - Shutdown initiated...
+[INFO] [2024-02-19 17:26:25][com.zaxxer.hikari.HikariDataSource - 352]HikariPool-1 - Shutdown completed.
