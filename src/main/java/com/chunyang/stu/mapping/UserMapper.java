@@ -1,9 +1,8 @@
-package com.chunyang.stu.Mapping;
+package com.chunyang.stu.mapping;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.chunyang.stu.POJO.User;
+import com.chunyang.stu.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 

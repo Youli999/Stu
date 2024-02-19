@@ -1,7 +1,7 @@
-package com.chunyang.stu.Controller;
+package com.chunyang.stu.controller;
 
-import com.chunyang.stu.POJO.User;
-import com.chunyang.stu.Service.UserService;
+import com.chunyang.stu.pojo.User;
+import com.chunyang.stu.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

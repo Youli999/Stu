@@ -9,10 +9,10 @@
     </settings>
 
     <typeAliases>
-        <package name="com.chunyang.stu.POJO"/>
+        <package name="com.chunyang.stu.pojo"/>
     </typeAliases>
 
     <mappers>
-        <mapper class="com.chunyang.stu.Mapping"/>
+        <mapper class="com.chunyang.stu.mapping"/>
     </mappers>
 </configuration>

@@ -1,12 +1,10 @@
-package com.chunyang.stu.Service.impl;
+package com.chunyang.stu.service.impl;
 
-import com.chunyang.stu.Mapping.StudentMapper;
-import com.chunyang.stu.POJO.Student;
-import com.chunyang.stu.Service.StudentService;
+import com.chunyang.stu.mapping.StudentMapper;
+import com.chunyang.stu.pojo.Student;
+import com.chunyang.stu.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class StudentServiceImpl implements StudentService {

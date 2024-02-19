@@ -1,6 +1,6 @@
 package com.chunyang.stu;
 
-import com.chunyang.stu.Service.UserService;
+import com.chunyang.stu.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

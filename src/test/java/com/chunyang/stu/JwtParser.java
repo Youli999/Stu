@@ -21,7 +21,7 @@ public class JwtParser {
                 // 载荷部分 标准
                 .setId("123456") // jti: jwt的唯一身份标识，主要用来作为一次性token,从而回避重放攻击
                 .setSubject("tom") // sub: jwt所面向的用户
-                .setIssuer("Jack") // iss: jwt签发者
+                .setIssuer("Jack") // iss: jwt签发者d
                 .setIssuedAt(new Date()) // iat: jwt的签发时间
                 .setExpiration(new Date(System.currentTimeMillis() + (1000 * 60)))// exp: jwt的过期时间 一分钟
                 // 载荷部分 自定义

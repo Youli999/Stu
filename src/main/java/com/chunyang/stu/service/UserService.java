@@ -1,6 +1,6 @@
-package com.chunyang.stu.Service;
+package com.chunyang.stu.service;
 
-import com.chunyang.stu.POJO.User;
+import com.chunyang.stu.pojo.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.chunyang.stu.Filter.chunyang2Filter;
+package com.chunyang.stu.filter.chunyang2Filter;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletRequestWrapper;

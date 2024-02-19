@@ -1,4 +1,4 @@
-package com.chunyang.stu.Filter.chunyang2Filter;
+package com.chunyang.stu.filter.chunyang2Filter;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

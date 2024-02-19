@@ -1,4 +1,4 @@
-package com.chunyang.stu.Filter.chunyang2Filter;
+package com.chunyang.stu.filter.chunyang2Filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
@@ -14,8 +14,10 @@ import java.io.IOException;
 /**
  * @author Happy
  */
-@WebFilter
-@Component
+@WebFilter    //1
+
+@Component    //2
+//@Order(1)
 public class XssFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -25,7 +27,9 @@ public class XssFilter implements Filter {
             throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
         XssAndSqlHttpServletRequestWrapper xssRequestWrapper = new XssAndSqlHttpServletRequestWrapper(req);
+        System.out.println("start chunyang2");
         chain.doFilter(xssRequestWrapper, response);
+        System.out.println("end chunyang2");
     }
     @Override
     public void destroy() {

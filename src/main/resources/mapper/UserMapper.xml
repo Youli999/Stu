@@ -2,27 +2,27 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.chunyang.stu.Mapping.UserMapper">
+<mapper namespace="com.chunyang.stu.mapping.UserMapper">
 
     <!-- 基础的CRUD操作，无需手动实现 -->
 
 <!--    &lt;!&ndash; 根据ID查询用户 &ndash;&gt;-->
-<!--    <select id="selectById" parameterType="java.lang.Long" resultType="com.chunyang.stu.POJO.User">-->
+<!--    <select id="selectById" parameterType="java.lang.Long" resultType="com.chunyang.stu.pojo.User">-->
 <!--        SELECT * FROM user WHERE id = #{id}-->
 <!--    </select>-->
 
 <!--    &lt;!&ndash; 查询所有用户 &ndash;&gt;-->
-<!--    <select id="selectAll" resultType="com.chunyang.stu.POJO.User">-->
+<!--    <select id="selectAll" resultType="com.chunyang.stu.pojo.User">-->
 <!--        SELECT * FROM user-->
 <!--    </select>-->
 
 <!--    &lt;!&ndash; 新增用户 &ndash;&gt;-->
-<!--    <insert id="insert" parameterType="com.chunyang.stu.POJO.User">-->
+<!--    <insert id="insert" parameterType="com.chunyang.stu.pojo.User">-->
 <!--        INSERT INTO user(username, password) VALUES (#{username}, #{password})-->
 <!--    </insert>-->
 
 <!--    &lt;!&ndash; 更新用户 &ndash;&gt;-->
-<!--    <update id="updateById" parameterType="com.chunyang.stu.POJO.User">-->
+<!--    <update id="updateById" parameterType="com.chunyang.stu.pojo.User">-->
 <!--        UPDATE user SET username = #{username}, password = #{password} WHERE id = #{id}-->
 <!--    </update>-->
 
@@ -34,12 +34,12 @@
     <!-- 自定义查询语句 -->
 
     <!-- 根据id查询用户 -->
-    <select id="finduser" resultType="com.chunyang.stu.POJO.User">
+    <select id="finduser" resultType="com.chunyang.stu.pojo.User">
         SELECT * FROM user WHERE id = #{id}
     </select>
 
     <!-- 检测是否存在用户 -->
-    <select id="existuser" resultType="com.chunyang.stu.POJO.User">
+    <select id="existuser" resultType="com.chunyang.stu.pojo.User">
         SELECT * FROM user WHERE username = #{username} AND password = #{password}
     </select>
 

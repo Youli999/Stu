@@ -1,9 +1,9 @@
-package com.chunyang.stu.Controller;
+package com.chunyang.stu.controller;
 
 
 
-import com.chunyang.stu.POJO.Student;
-import com.chunyang.stu.Service.StudentService;
+import com.chunyang.stu.pojo.Student;
+import com.chunyang.stu.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

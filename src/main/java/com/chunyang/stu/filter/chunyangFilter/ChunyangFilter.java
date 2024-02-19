@@ -1,4 +1,4 @@
-package com.chunyang.stu.Filter.chunyangFilter;
+package com.chunyang.stu.filter.chunyangFilter;
 
 
 import jakarta.servlet.*;
@@ -20,9 +20,9 @@ public class ChunyangFilter implements Filter {
         XssHttpServletRequestWrapper xssRequest = new XssHttpServletRequestWrapper(httpRequest);
 
 
-        System.out.println("start");
+        System.out.println("start chunyang");
         chain.doFilter(xssRequest, response);
-        System.out.println("end");
+        System.out.println("end chunyang");
     }
 
     @Override

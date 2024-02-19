@@ -1,4 +1,4 @@
-package com.chunyang.stu.Filter.chunyangFilter;
+package com.chunyang.stu.filter.chunyangFilter;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import jakarta.servlet.http.HttpServletRequest;

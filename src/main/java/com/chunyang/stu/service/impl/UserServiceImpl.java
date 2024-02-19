@@ -1,8 +1,8 @@
-package com.chunyang.stu.Service.impl;
+package com.chunyang.stu.service.impl;
 
-import com.chunyang.stu.Mapping.UserMapper;
-import com.chunyang.stu.POJO.User;
-import com.chunyang.stu.Service.UserService;
+import com.chunyang.stu.mapping.UserMapper;
+import com.chunyang.stu.pojo.User;
+import com.chunyang.stu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
