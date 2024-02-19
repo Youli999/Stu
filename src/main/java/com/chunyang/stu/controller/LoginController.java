@@ -1,12 +1,18 @@
 package com.chunyang.stu.controller;
 
+import com.chunyang.stu.api.Result;
+import com.chunyang.stu.api.ResultCode;
 import com.chunyang.stu.pojo.User;
 import com.chunyang.stu.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import com.chunyang.stu.util.JwtUtils;
+
 
 @RestController
 public class LoginController {
@@ -17,40 +23,24 @@ public class LoginController {
     private UserService userService;
 
     @PostMapping("login")
-    List<User> Login(@RequestParam Integer id) {
+    Result<Map> Login(@RequestParam  String username,String password) {
 
-        List<User> users = userService.finduser(id);
+        Map map = new HashMap<>();
 
-        return users;
+        User user = userService.login(username,password);
+        if (user != null ){
 
-    }
+            String token = JwtUtils.createToken(user.getUsername(), "stu", 300);
 
-    @PostMapping("selectById")
-        User selectByid(@RequestParam Long id) {
+            map.put("token",token);
 
-        User user = userService.selectById(id);
+            return Result.success(map);
+        }else {
 
-        return user;
+            return Result.failure(ResultCode.NOT_LOGIN);
 
-    }
+        }
 
-
-    @PostMapping("show")
-    User show(@RequestBody User user) {
-
-
-     logger.info(user);
-     logger.warn("this is warn message");
-
-     return user;
-    }
-
-    @PostMapping("test")
-    void test(@RequestParam String name,String sex) {
-
-
-        logger.info(name +"-----" + sex);
-        logger.warn("this is warn test");
     }
 
 }

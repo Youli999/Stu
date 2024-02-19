@@ -10,6 +10,12 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 
+//@WebFilter    //1   启动类 加载 @ServletComponentScan
+
+/*@Component    //2
+@Order(1)*/
+
+//3  使用配置文件
 
 @Configuration
 public class FilterConfiguration {
